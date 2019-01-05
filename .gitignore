@@ -1,0 +1,12 @@
+# web app
+
+*node_modules
+*dist
+
+# api
+
+*bin
+*obj
+*App_Data
+*packages
+*.suo

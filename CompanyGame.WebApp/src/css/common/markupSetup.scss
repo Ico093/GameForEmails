@@ -1,0 +1,56 @@
+html, body, #app, .appContainer{
+    height: 100%;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+/* Header, Content and Footer */
+
+.header, .footer{
+     position: absolute;
+     left: 0;
+     width: 100%;
+}
+
+.header, .footer {
+    overflow: hidden;
+    height: 50px;
+}
+
+.header {
+    top: 0;
+    z-index: 2;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.content {
+    position: absolute;
+    width:100%;
+    top:50px;
+    bottom:50px;
+    z-index: 1;
+    overflow: auto;
+}
+
+.footer {
+    bottom: 0;
+    z-index: 2;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.fullHeight{
+    height: 100%;
+}
+
+.clearPosition {
+    position: relative;
+    margin-bottom: 0px;
+}

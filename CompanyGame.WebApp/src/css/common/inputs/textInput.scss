@@ -1,0 +1,29 @@
+@import '../_CompanyColors.scss';
+
+/* label color */
+   .input-field label {
+     color: $primaryColor;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: $primaryColor;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid $primaryColor;
+     box-shadow: 0 1px 0 0 $primaryColor;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid $primaryColor;
+     box-shadow: 0 1px 0 0 $primaryColor;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid $primaryErrorColor;
+     box-shadow: 0 1px 0 0 $primaryErrorColor;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: $primaryColor;
+   }
